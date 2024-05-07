@@ -54,6 +54,6 @@ for filepath in filepaths:
     pdf.cell(w=30, h=8, txt=f"The total price is {total_sum}", ln=1)
 
     pdf.set_font(family="Times", size=10)
-    pdf.cell(w=30, h=8, txt=f"Pythonhow")
+    pdf.cell(w=30, h=8, txt=f"Miki Lovrenovic")
 
     pdf.output(f"PDF/{filename}.pdf")
